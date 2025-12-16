@@ -1,0 +1,299 @@
+.back1
+{
+    background-color:black;
+    color:ghostwhite;
+}
+ /* CSS STARTS HERE */
+ *,*::before,*::after
+ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HOME CSS STARTS HERE */
+.home-container1
+{
+    display: grid;
+    grid-template-columns:auto auto;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.clr1
+{ 
+    color:#FF004F;
+}
+.clr2
+{
+color:#FF004F;
+text-decoration: underline;
+}
+.home-items1
+{
+    font-size:50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial,sans-serif';
+}
+.home-items2
+{
+    display:grid;
+    grid-template-columns:auto auto auto auto auto;
+    margin-top:20px;
+    margin-left:200px;
+}
+.home-items2>div>a
+{
+    text-decoration:none;
+    color:ghostwhite;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+.home-items2>div>a::after
+{
+ content:"";
+ position: absolute;
+ background-color: #FF004F;
+ height: 3px;
+ width: 0;
+ left:0;
+ bottom: -10px;
+ transition: 0.3s;
+}
+.home-items2>div>a:hover::after
+{
+    width:100%;
+}
+/* HOME CSS ENDS HERE */
+
+/* HEADER CSS STARTS HERE */
+.container1
+{
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:200px;
+    margin-bottom:300px;
+    font-size:30px;
+}
+.txt1
+{
+    font-size:50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial,sans-serif';
+}
+.txt2{
+    font-size: 20px;
+}
+.back2
+{
+    background-color: rgb(20,20,20);
+    margin-top:300px;
+}
+/* HEADER CSS ENDS HERE */
+
+/* ABOUT CSS STARTS HERE */
+.about-container1
+{
+    display:grid;
+    grid-template-columns:auto auto;
+    margin-left:150px;
+    margin-right:200px;
+    margin-top:50px;
+    column-gap:40px;
+    
+}
+.about-container1>div>img
+{
+ width:400px;
+ height:500px;
+ padding:40px;
+ border-radius: 10px;
+}
+.txt2
+{
+    font-size:60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial,sans-serif';
+    margin-top:0px;
+}
+.abt1
+{
+    margin-top:0px;
+    font-size:15px;
+}
+
+.nav-item{
+    padding: 10px;
+}
+/* ABOUT CSS ENDS HERE */
+
+/* SERVICE CSS STARTS HERE */
+.myservices
+{
+ margin-left:200px;
+ margin-right:200px;
+ margin-top:80px;
+ margin-bottom:100px;
+}
+.service-container1
+{
+
+    display:grid;
+    grid-template-columns:auto auto auto;
+    margin-top:80px;
+}
+.card1
+{
+    background-color:#262626;
+    width:360px;
+    height:200px;
+    padding: 10px;
+    border-radius:10px;
+    transition: background-color 0.5s,transform 0.5s;
+}
+.card1>h2
+{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card1>p
+{
+ font-family:'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size:15px;
+}
+.card1>p>a
+{
+ text-decoration:none;
+ color: white;
+}
+.card1:hover
+{
+ background-color: #FF004F;
+ transform:translateY(-10px)
+}
+/* SERVICE CSS ENDS HERE */
+
+.Mywork
+{
+ margin-left:200px;
+ margin-right:200px;
+ margin-top:100px;
+ margin-bottom:100px;
+}
+.mywork-container1
+{
+ display:grid;
+ grid-template-columns:auto auto auto;
+ margin-top: 80px;
+}
+.mywork-items>img
+{
+ border-radius:15px;
+ width:250px;
+ height: 300px;
+}
+.see1
+{
+ border:1px solid #FF004F;
+ padding:10px;
+ margin-top:50px;
+ margin-bottom:100px;
+ width:200px;
+ text-align:center;
+ margin-left:450px;
+ border-radius:10px;
+}
+.see1:hover{
+    background-color:#FF004F;
+}
+
+/* CONTACT CSS STARTS HERE */
+.contact1
+{
+ margin-left:200px;
+ margin-right:200px;
+ margin-top:100px;  
+ column-gap:60px; 
+}
+.contact-container1
+{
+ display:grid;
+ grid-template-columns:auto auto;
+}
+.c1
+{
+ margin-top:40px;
+}
+.contact-items1 > div > button > a
+{
+ text-decoration:none;
+ color:ghostwhite;
+}
+.contact-items1 > div > button
+{
+ background-color:#FF004F;
+ padding:10px;
+ width:200px;
+ font-size:20px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ border-radius:10px;
+ margin-top:50px;
+ color:ghostwhite;
+ border-style: none;
+}
+.contact-items2
+{
+ margin-top:40px;
+}
+.contact-items2 > form > div > input
+{
+ width:700px;
+ height:50px;
+ margin-bottom:30px;
+ padding-left:20px;
+ background-color: #262626;
+ border:none;
+ border-radius:10px;
+ font-size:18px;
+ color:white;
+ margin-left:100px;
+}
+.contact-items2 > form > div > textarea
+{
+ width:700px;
+ height:150px;
+ margin-bottom:30px;
+ padding-left:20px;
+ padding-top:20px;
+ background-color: #262626;
+ border:none;
+ border-radius:10px;
+ font-size:18px;
+ color:white;
+ margin-left:100px;
+}
+.contact-items2 > form > div > button
+{
+ background-color:#FF004F;
+ padding:10px;
+ width:200px;
+ font-size:20px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ border-radius:10px;
+ margin-top:50px;
+ text-align:center;
+ color: ghostwhite;
+ margin-bottom:100px;
+ margin-left:100px;
+ border-style: none;
+}
+/* CONTACT CSS ENDS HERE */
+/* FOOTER CSS STARTS HERE */
+.foot1
+{
+ background-color: #262626;
+ text-align:center;
+ height:50px;
+ font-size:15px;
+ 
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ padding-top:15px;
+}
+/* FOOTER CSS ENDS HERE */
